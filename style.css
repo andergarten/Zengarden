@@ -8,8 +8,15 @@ body {
     
 }
 
+#zen-logo {
+    float: left;
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
 .side-menu {
-    display: inline-block;
     text-align: center;
     width: 12%;
     height: 37%;
@@ -51,6 +58,7 @@ a.menu-link:hover, a.menu-link:hover {
 p {
     line-height: 1.2em !important;
     text-align: justify;
+    font-size: 1em;
 }
 
 .page-wrapper {
@@ -68,12 +76,14 @@ p {
 }
 
 #zen-summary { 
-    background: #fff;
-
+    display: block;
+    padding: 0.3em;
+    font-weight: bold; 
+    font-size: 1.1em;
 }
 
-#zen-intro {
-    
+#zen-intro p {
+    color:#03004d;
 }
 
 h1 {
@@ -106,11 +116,19 @@ footer {
     border: 1px solid black;
     border-radius: 1em;
     display: block;
-    width: 90%;
+    width: 92%;
 }
 
-#zen-preamble {
+#zen-preamble p{
+    font-style: italic;
+}
 
+#zen-explanation {
+    border-top: 1px solid black;
+}
+
+#zen-requirements {
+    border-top: 1px solid black;
 }
 
 #design-selection, #design-archives, #zen-resources {
