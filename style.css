@@ -1,7 +1,6 @@
 
 body {
     font: 80% georgia, sans-serif;
-    background-color: #C7E28F;
     color: #262626;
     background: url(http://www.psicologiabenessere.it/wp-content/uploads/2015/07/training-autogeno-2.jpg) no-repeat;
     background-size: cover;
@@ -17,6 +16,14 @@ body {
     position: relative;
 }
 
+a:link, a:active {
+    color: #127E40;
+    text-decoration: none;
+}
+
+a:hover, a:visited {
+    color: #503c26;
+}
 
 .side-menu {
     text-align: center;
